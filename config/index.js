@@ -148,11 +148,11 @@ export const config = {
    */
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09", isShowAge: true},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+    {"type": "*生日", "name": "老婆", "year": "1998", "date": "11-15", isShowAge: true},
+    {"type": "节日", "name": "相遇纪念日", "year": "2022", "date": "04-27"},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31", isShowAge: true},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+    {"type": "生日", "name": "小王", "year": "1998", "date": "08-11", isShowAge: true},
+    {"type": "节日", "name": "被搭讪纪念日", "year": "2022", "date": "04-27"},
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -172,11 +172,11 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2022-09-08"},
+    {"keyword": "love_day", date: "未知"},
     // 相遇纪念日
-    {"keyword": "marry_day", date: "2022-09-09"},
-    // 退伍日
-    {"keyword": "ex_day", date: "2022-09-10"},
+    {"keyword": "marry_day", date: "2022-04-27"},
+    // 宝贝生日
+    {"keyword": "ex_day", date: "2022-11-15"},
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -192,9 +192,9 @@ export const config = {
     {"keyword": "encourage_oneself", contents: "thousands times for you，kitten多"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
-      "因为太喜欢你，所以看谁都像是情敌。",
-      "申请成为你爱里的永久居民。",
-      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
+      "宝贝一发怒，有理也让步。",
+      "宝贝心情差，面子要放下。",
+      "好想和乖乖结婚哦",
       
     ]},
     // 你可以不断按格式往下增加
